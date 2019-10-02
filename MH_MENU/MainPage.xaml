@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MENU"
+             x:Class="MENU.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Button Text="Màn hình chào" Clicked="Button_Clicked_2"/>
+            <Button Text="Màn Hình Tính Tổng"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                />
+            <Button Text="StackLayout" HorizontalOptions="Center" />
+            <Button Text="AbsoluteLayout" x:Name="cmdAbsoluteLayout" HorizontalOptions="Center" />
+            <Button Text="GridLayout" x:Name="cmdGridLayout" />
+            <Button Text="Login" x:Name="cmdlogin" />
+            <Button Text="FlexLayout" x:Name="cmdFlexLayout" />
+            <Button Text="ScrollView" x:Name="cmdScrollView" />
+            <Button Text="Entry" x:Name="cmdEntry" />
+            <Button Text="Listview 1" x:Name="cmdListview1" />
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

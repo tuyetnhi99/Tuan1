@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MH_Chao"
+             x:Class="MH_Chao.MainPage"
+             Title="Hello World">
+            
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Nhập Họ Tên"/>
+        <Entry x:Name="txthoten"/>
+        <Button x:Name="cmdchao" Text="Chào" Clicked="cmdchao_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
